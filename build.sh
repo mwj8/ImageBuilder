@@ -8,26 +8,56 @@ PROFILE="generic"
 
 PACKAGES=""
 
+# 状态组件
+
+# Netdata 系统监控界面
+PACKAGES="$PACKAGES luci-i18n-netdata-zh-cn"
+# 释放内存
+PACKAGES="$PACKAGES luci-i18n-ramfree-zh-cn"
+
+# 常用主题
+
 # Argon 主题
 PACKAGES="$PACKAGES luci-theme-argon luci-i18n-argon-config-zh-cn"
+PACKAGES="$PACKAGES luci-theme-material"
 
 # 常用系统管理组件
 
 # Diskman 磁盘管理
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 # CPU 占用限制
-PACKAGES="$PACKAGES luci-i18n-cpulimit-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-cpulimit-zh-cn"
 # collectd 统计
 # PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
+# ttyd终端
+PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
+# 定时重启
+PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
 
 # 常用软件服务
 
+# ssr-plus代理
+PACKAGES="$PACKAGES luci-i18n-ssr-plus-zh-cn"
 # OpenClash 代理
 PACKAGES="$PACKAGES luci-app-openclash"
 # Passwall 代理
-PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn chinadns-ng hysteria naiveproxy xray-plugin"
 # frp 和 nps 内网穿透
 # PACKAGES="$PACKAGES luci-i18n-nps-zh-cn luci-i18n-frpc-zh-cn"
+# upnp端口自动转发
+PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
+# 阿里云盘webdav
+PACKAGES="$PACKAGES luci-i18n-aliyundrive-webdav-zh-cn"
+# 动态dns
+PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
+# 微信推送
+PACKAGES="$PACKAGES luci-app-serverchan"
+# pushbot
+PACKAGES="$PACKAGES luci-app-pushbot"
+# adguardhome
+PACKAGES="$PACKAGES luci-app-adguardhome"
+# smartdns
+PACKAGES="$PACKAGES luci-i18n-smartdns-zh-cn"
 
 # 常用的网络存储组件
 
@@ -47,9 +77,11 @@ PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
 # FTP 服务器
 PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
+# NFS 管理
+PACKAGES="$PACKAGES luci-i18n-nfs-zh-cn"
 
 # Docker 组件
-PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn docker-compose"
 
 # VPN 类
 
@@ -57,15 +89,16 @@ PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
 # Zerotier
 PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
+# Wireguard
+PACKAGES="$PACKAGES luci-i18n-wireguard-zh-cn"
 
 # 网络组件
 
 # EQoS 网速控制
 PACKAGES="$PACKAGES luci-i18n-eqos-zh-cn"
 # 多线多拨与负载均衡
-PACKAGES="$PACKAGES luci-app-syncdial luci-i18n-mwan3-zh-cn"
+PACKAGES="$PACKAGES luci-app-syncdial luci-i18n-mwan3-zh-cn luci-i18n-mwan3helper-zh-cn"
 # 宽带监控 Nlbwmon
-PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
 # ip/mac 绑定
 PACKAGES="$PACKAGES luci-i18n-arpbind-zh-cn"
@@ -87,18 +120,19 @@ PACKAGES="$PACKAGES luci-i18n-wrtbwmon-zh-cn"
 
 # zsh 终端
 # PACKAGES="$PACKAGES zsh"
-# Vim 完整版，带语法高亮
+# Vim Nano完整版，带语法高亮
 PACKAGES="$PACKAGES vim-fuller nano-plus"
 # X/Y/ZMODEM 文件传输
 PACKAGES="$PACKAGES lrzsz"
 # OpenSSH
-PACKAGES="$PACKAGES openssh-server openssh-client"
-# Wireguard
-PACKAGES="$PACKAGES luci-i18n-wireguard-zh-cn"
+#PACKAGES="$PACKAGES openssh-server openssh-client openssh-client-utils openssh-moduli openssh-sftp-avahi-service openssh-sftp-client openssh-sftp-server openssh-keygen sshtunnel"
+
 # ipv6
 PACKAGES="$PACKAGES ipv6helper ip6tables-extra ip6tables-mod-nat"
 
 PACKAGES="$PACKAGES iperf3 htop"
+
+PACKAGES="$PACKAGES -dropbear"
 
 # 一些自定义文件
 FILES="files"
