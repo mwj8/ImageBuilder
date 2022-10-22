@@ -19,7 +19,7 @@ PACKAGES="$PACKAGES luci-i18n-ramfree-zh-cn"
 
 # Argon 主题
 PACKAGES="$PACKAGES luci-theme-argon"
-PACKAGES="$PACKAGES luci-theme-material"
+# PACKAGES="$PACKAGES luci-theme-material"
 
 # 常用系统管理组件
 
@@ -105,7 +105,7 @@ PACKAGES="$PACKAGES luci-i18n-arpbind-zh-cn"
 # 流量智能队列管理(QOS)
 PACKAGES="$PACKAGES luci-i18n-sqm-zh-cn"
 # Turbo ACC 网络加速
-PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn kmod-shortcut-fe-cm"
+PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn kmod-shortcut-fe"
 
 # 界面翻译补全
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn"
@@ -137,6 +137,6 @@ PACKAGES="$PACKAGES iperf3 htop"
 FILES="files"
 
 # 禁用 openssh-server 的 sshd 服务和 docker 的 dockerd 服务以防止冲突
-DISABLED_SERVICES="sshd dockerd"
+DISABLED_SERVICES="dockerd"
 
 make image PROFILE="$PROFILE" PACKAGES="$PACKAGES" FILES="$FILES" DISABLED_SERVICES="$DISABLED_SERVICES"
