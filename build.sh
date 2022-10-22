@@ -125,7 +125,7 @@ PACKAGES="$PACKAGES vim-fuller nano-plus"
 # X/Y/ZMODEM 文件传输
 PACKAGES="$PACKAGES lrzsz"
 # OpenSSH
-#PACKAGES="$PACKAGES openssh-server openssh-client openssh-client-utils openssh-moduli openssh-sftp-avahi-service openssh-sftp-client openssh-sftp-server openssh-keygen sshtunnel"
+PACKAGES="$PACKAGES openssh-server openssh-client openssh-client-utils openssh-moduli openssh-sftp-avahi-service openssh-sftp-client openssh-sftp-server openssh-keygen sshtunnel"
 
 # ipv6
 PACKAGES="$PACKAGES ipv6helper ip6tables-extra ip6tables-mod-nat"
