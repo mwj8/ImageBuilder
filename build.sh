@@ -18,7 +18,7 @@ PACKAGES="$PACKAGES luci-i18n-ramfree-zh-cn"
 # 常用主题
 
 # Argon 主题
-PACKAGES="$PACKAGES luci-theme-argon luci-i18n-argon-config-zh-cn"
+PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-theme-material"
 
 # 常用系统管理组件
