@@ -126,11 +126,12 @@ PACKAGES="$PACKAGES vim-fuller nano-plus"
 PACKAGES="$PACKAGES lrzsz"
 # OpenSSH
 # PACKAGES="$PACKAGES openssh-server openssh-client openssh-client-utils openssh-moduli openssh-sftp-avahi-service openssh-sftp-client openssh-sftp-server openssh-keygen sshtunnel"
-
+# sftp
+PACKAGES="$PACKAGES openssh-sftp-server"
 # ipv6
 PACKAGES="$PACKAGES ipv6helper ip6tables-extra ip6tables-mod-nat"
 
-PACKAGES="$PACKAGES iperf3 htop"
+PACKAGES="$PACKAGES iperf3 htop autosamba"
 
 
 # 一些自定义文件
