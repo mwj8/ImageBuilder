@@ -97,7 +97,7 @@ PACKAGES="$PACKAGES luci-i18n-wireguard-zh-cn"
 # EQoS 网速控制
 PACKAGES="$PACKAGES luci-i18n-eqos-zh-cn"
 # 多线多拨与负载均衡
-PACKAGES="$PACKAGES luci-app-syncdial luci-i18n-mwan3-zh-cn luci-i18n-mwan3helper-zh-cn"
+# PACKAGES="$PACKAGES luci-app-syncdial luci-i18n-mwan3-zh-cn luci-i18n-mwan3helper-zh-cn"
 # 宽带监控 Nlbwmon
 PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
 # ip/mac 绑定
