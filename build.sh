@@ -105,7 +105,7 @@ PACKAGES="$PACKAGES luci-i18n-arpbind-zh-cn"
 # 流量智能队列管理(QOS)
 PACKAGES="$PACKAGES luci-i18n-sqm-zh-cn"
 # Turbo ACC 网络加速
-PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn kmod-shortcut-fe"
+PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn"
 
 # 界面翻译补全
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-filetransfer-zh-cn"
