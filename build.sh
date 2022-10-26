@@ -81,7 +81,7 @@ PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-nfs-zh-cn"
 
 # Docker 组件
-PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn docker-compose"
+# PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn docker-compose"
 
 # VPN 类
 
@@ -136,6 +136,6 @@ PACKAGES="$PACKAGES iperf3 htop autosamba"
 FILES="files"
 
 # 禁用 openssh-server 的 sshd 服务和 docker 的 dockerd 服务以防止冲突
-DISABLED_SERVICES="dockerd"
+# DISABLED_SERVICES="dockerd"
 
 make image PROFILE="$PROFILE" PACKAGES="$PACKAGES" FILES="$FILES" DISABLED_SERVICES="$DISABLED_SERVICES"
