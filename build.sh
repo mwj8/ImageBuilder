@@ -18,11 +18,13 @@ PACKAGES="$PACKAGES luci-i18n-ramfree-zh-cn"
 # 常用主题
 
 # Argon 主题
-PACKAGES="$PACKAGES luci-theme-argon"
-PACKAGES="$PACKAGES luci-theme-material"
+# PACKAGES="$PACKAGES luci-theme-argon"
+PACKAGES="$PACKAGES luci-theme-opentomcat"
 
 # 常用系统管理组件
 
+# web管理
+PACKAGES="$PACKAGES luci-i18n-webadmin-zh-cn"
 # Diskman 磁盘管理
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 # CPU 占用限制
@@ -45,7 +47,7 @@ PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn chinadns-ng hysteria naiveproxy xra
 # frp 和 nps 内网穿透
 # PACKAGES="$PACKAGES luci-i18n-nps-zh-cn luci-i18n-frpc-zh-cn"
 # upnp端口自动转发
-PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # 阿里云盘webdav
 PACKAGES="$PACKAGES luci-i18n-aliyundrive-webdav-zh-cn"
 # 动态dns
