@@ -19,7 +19,7 @@ PACKAGES="$PACKAGES luci-i18n-ramfree-zh-cn"
 
 # Argon 主题
 # PACKAGES="$PACKAGES luci-theme-argon"
-PACKAGES="$PACKAGES luci-theme-opentomcat"
+# PACKAGES="$PACKAGES luci-theme-opentomcat"
 
 # 常用系统管理组件
 
