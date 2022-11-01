@@ -47,7 +47,7 @@ PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn chinadns-ng hysteria naiveproxy xra
 # frp 和 nps 内网穿透
 # PACKAGES="$PACKAGES luci-i18n-nps-zh-cn luci-i18n-frpc-zh-cn"
 # upnp端口自动转发
-# PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # 阿里云盘webdav
 PACKAGES="$PACKAGES luci-i18n-aliyundrive-webdav-zh-cn"
 # 动态dns
@@ -55,9 +55,9 @@ PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
 # 微信推送
 PACKAGES="$PACKAGES luci-app-serverchan"
 # pushbot
-PACKAGES="$PACKAGES luci-app-pushbot"
+# PACKAGES="$PACKAGES luci-app-pushbot"
 # adguardhome
-PACKAGES="$PACKAGES luci-app-adguardhome"
+# PACKAGES="$PACKAGES luci-app-adguardhome"
 # smartdns
 PACKAGES="$PACKAGES luci-i18n-smartdns-zh-cn"
 
