@@ -135,8 +135,10 @@ PACKAGES="$PACKAGES openssh-sftp-client openssh-sftp-server"
 # ipv6
 PACKAGES="$PACKAGES ipv6helper ip6tables-extra ip6tables-mod-nat"
 
-PACKAGES="$PACKAGES iperf3 htop autosamba"
+PACKAGES="$PACKAGES iperf3 htop"
 
+#去除
+PACKAGES="$PACKAGES -samba36-server"
 
 # 一些自定义文件
 FILES="files"
