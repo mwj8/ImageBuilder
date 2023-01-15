@@ -60,6 +60,8 @@ PACKAGES="$PACKAGES luci-app-serverchan"
 # PACKAGES="$PACKAGES luci-app-adguardhome"
 # smartdns
 PACKAGES="$PACKAGES luci-i18n-smartdns-zh-cn"
+# watchcat
+PACKAGES="$PACKAGES luci-i18n-watchcat-zh-cn"
 
 # 常用的网络存储组件
 
@@ -87,7 +89,7 @@ PACKAGES="$PACKAGES luci-i18n-nfs-zh-cn"
 
 # VPN 类
 
-# IPSec VPN
+# openvpn
 PACKAGES="$PACKAGES luci-i18n-openvpn-server-zh-cn"
 # Zerotier
 PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
@@ -125,7 +127,7 @@ PACKAGES="$PACKAGES luci-i18n-wrtbwmon-zh-cn"
 # Vim Nano完整版，带语法高亮
 PACKAGES="$PACKAGES vim-fuller nano-plus"
 # X/Y/ZMODEM 文件传输
-PACKAGES="$PACKAGES lrzsz"
+# PACKAGES="$PACKAGES lrzsz"
 # OpenSSH
 PACKAGES="$PACKAGES openssh-sftp-client openssh-sftp-server"
 # ipv6
