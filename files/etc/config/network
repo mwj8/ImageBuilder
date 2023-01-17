@@ -1,3 +1,4 @@
+
 config interface 'loopback'
 	option device 'lo'
 	option proto 'static'
@@ -5,8 +6,6 @@ config interface 'loopback'
 	option netmask '255.0.0.0'
 
 config globals 'globals'
-	option ula_prefix ''
-	option packet_steering '1'
 
 config device
 	option name 'br-lan'
@@ -16,6 +15,8 @@ config device
 config interface 'lan'
 	option proto 'static'
 	option netmask '255.255.255.0'
-	option ip6assign '64'
 	option device 'eth0'
 	option ipaddr '192.168.2.6'
+	option gateway '192.168.2.1'
+	list dns '192.168.2.1'
+
