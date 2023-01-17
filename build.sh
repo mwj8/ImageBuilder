@@ -82,9 +82,11 @@ PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
 # Aria2 下载器
 # PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
 # FTP 服务器
-PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
 # NFS 管理
 PACKAGES="$PACKAGES luci-i18n-nfs-zh-cn"
+# alist
+PACKAGES="$PACKAGES luci-i18n-alist-zh-cn"
 
 # Docker 组件
 # PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn docker-compose"
