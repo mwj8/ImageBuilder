@@ -45,7 +45,7 @@ PACKAGES="$PACKAGES luci-app-openclash"
 # Passwall 代理
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn chinadns-ng hysteria naiveproxy xray-plugin"
 # frp 和 nps 内网穿透
-# PACKAGES="$PACKAGES luci-i18n-nps-zh-cn luci-i18n-frpc-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-nps-zh-cn luci-i18n-frpc-zh-cn"
 # upnp端口自动转发
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # 阿里云盘webdav
@@ -62,6 +62,8 @@ PACKAGES="$PACKAGES luci-app-serverchan"
 PACKAGES="$PACKAGES luci-i18n-smartdns-zh-cn"
 # watchcat
 PACKAGES="$PACKAGES luci-i18n-watchcat-zh-cn"
+#wake on lan
+PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
 
 # 常用的网络存储组件
 
