@@ -113,7 +113,7 @@ PACKAGES="$PACKAGES luci-i18n-arpbind-zh-cn"
 # 流量智能队列管理(QOS)
 PACKAGES="$PACKAGES luci-i18n-sqm-zh-cn"
 # Turbo ACC 网络加速
-PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn kmod-tcp-bbr "
 # socat
 PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
 
@@ -125,6 +125,7 @@ PACKAGES="$PACKAGES luci-i18n-wrtbwmon-zh-cn"
 
 # 一些自己需要的内核组件
 # PACKAGES="$PACKAGES kmod-usb-printer kmod-lp"
+PACKAGES="$PACKAGES kmod-usb3"
 
 # 一些其他可能有用的包
 
