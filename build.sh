@@ -95,7 +95,7 @@ PACKAGES="$PACKAGES luci-i18n-nfs-zh-cn"
 # VPN 类
 
 # openvpn
-PACKAGES="$PACKAGES luci-i18n-openvpn-server-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-openvpn-server-zh-cn"
 # Zerotier
 PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
 # Wireguard
