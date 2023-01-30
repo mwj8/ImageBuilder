@@ -22,8 +22,8 @@ PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn"
 
 # OpenSSH
 PACKAGES="$PACKAGES openssh-server openssh-client"
-# Netdata 系统监控界面
-# PACKAGES="$PACKAGES netdata"
+
+PACKAGES="$PACKAGES luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn "
 
 # 一些自定义文件
 FILES="files"
