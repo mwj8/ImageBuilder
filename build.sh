@@ -6,7 +6,6 @@ make info
 # 主配置名称
 PROFILE="generic"
 
-PACKAGES=""
 
 # 状态组件
 
@@ -32,7 +31,10 @@ PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 # ttyd终端
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 # 定时重启
-# PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
+#argon-config
+# PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
+
 
 # 常用软件服务
 
