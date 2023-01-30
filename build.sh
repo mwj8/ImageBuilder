@@ -43,7 +43,7 @@ PACKAGES="$PACKAGES luci-i18n-ssr-plus-zh-cn"
 # OpenClash 代理
 PACKAGES="$PACKAGES luci-app-openclash"
 # Passwall 代理
-PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn hysteria naiveproxy ipt2socks"
+PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn chinadns-ng hysteria naiveproxy ipt2socks "
 # frp 和 nps 内网穿透
 PACKAGES="$PACKAGES luci-i18n-frpc-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-nps-zh-cn"
