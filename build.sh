@@ -25,7 +25,7 @@ PACKAGES="$PACKAGES luci-theme-openwrt-2020"
 # web管理
 PACKAGES="$PACKAGES luci-i18n-webadmin-zh-cn"
 # Diskman 磁盘管理
-PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn mdadm"
 # CPU 占用限制
 # PACKAGES="$PACKAGES luci-i18n-cpulimit-zh-cn"
 # ttyd终端
