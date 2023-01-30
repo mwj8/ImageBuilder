@@ -114,7 +114,7 @@ PACKAGES="$PACKAGES luci-i18n-sqm-zh-cn"
 # Turbo ACC 网络加速
 PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn"
 # socat
-PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
 
 # 宽带监控 Nlbwmon
 # PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
