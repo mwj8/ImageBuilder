@@ -25,7 +25,7 @@ PACKAGES="$PACKAGES luci-theme-openwrt-2020"
 # web管理
 PACKAGES="$PACKAGES luci-i18n-webadmin-zh-cn"
 # Diskman 磁盘管理
-PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn mdadm"
+PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 # CPU 占用限制
 # PACKAGES="$PACKAGES luci-i18n-cpulimit-zh-cn"
 # ttyd终端
@@ -112,7 +112,7 @@ PACKAGES="$PACKAGES luci-i18n-arpbind-zh-cn"
 # 流量智能队列管理(QOS)
 PACKAGES="$PACKAGES luci-i18n-sqm-zh-cn"
 # Turbo ACC 网络加速
-PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn kmod-tcp-bbr"
+PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn"
 # socat
 PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
 
@@ -142,10 +142,9 @@ PACKAGES="$PACKAGES openssh-sftp-client openssh-sftp-server"
 # ipv6
 PACKAGES="$PACKAGES ipv6helper ip6tables-extra"
 
-PACKAGES="$PACKAGES iperf3 htop"
+PACKAGES="$PACKAGES iperf3 htop mdadm"
 
-#去除
-# PACKAGES="$PACKAGES -samba36-server"
+
 
 # 一些自定义文件
 FILES="files"
