@@ -147,9 +147,10 @@ PACKAGES="$PACKAGES iperf3 htop mdadm"
 
 
 # 一些自定义文件
-FILES="files"
+#FILES="files"
 
 # 禁用 openssh-server 的 sshd 服务和 docker 的 dockerd 服务以防止冲突
 # DISABLED_SERVICES="dockerd"
 
-make image PROFILE="$PROFILE" PACKAGES="$PACKAGES" FILES="$FILES" DISABLED_SERVICES="$DISABLED_SERVICES"
+make image PROFILE="$PROFILE" PACKAGES="$PACKAGES" 
+#FILES="$FILES" DISABLED_SERVICES="$DISABLED_SERVICES"
