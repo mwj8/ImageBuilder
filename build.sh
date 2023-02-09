@@ -12,7 +12,7 @@ PROFILE="generic"
 # Netdata 系统监控界面
 PACKAGES="$PACKAGES luci-i18n-netdata-zh-cn"
 # 释放内存
-PACKAGES="$PACKAGES luci-i18n-ramfree-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-ramfree-zh-cn"
 
 # 常用主题
 
@@ -86,8 +86,7 @@ PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
 # NFS 管理
 PACKAGES="$PACKAGES luci-i18n-nfs-zh-cn"
-# alist
-# PACKAGES="$PACKAGES luci-i18n-alist-zh-cn"
+
 
 # Docker 组件
 # PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn docker-compose"
@@ -95,7 +94,7 @@ PACKAGES="$PACKAGES luci-i18n-nfs-zh-cn"
 # VPN 类
 
 # openvpn
-# PACKAGES="$PACKAGES luci-i18n-openvpn-server-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-openvpn-server-zh-cn"
 # Zerotier
 PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
 # Wireguard
@@ -114,7 +113,7 @@ PACKAGES="$PACKAGES luci-i18n-sqm-zh-cn"
 # Turbo ACC 网络加速
 PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn"
 # socat
-#PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
 
 # 宽带监控 Nlbwmon
 # PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
@@ -142,7 +141,7 @@ PACKAGES="$PACKAGES openssh-sftp-client openssh-sftp-server"
 # ipv6
 PACKAGES="$PACKAGES ipv6helper ip6tables-extra"
 
-PACKAGES="$PACKAGES iperf3 htop mdadm"
+PACKAGES="$PACKAGES iperf3 htop mdadm lsblk"
 
 
 
