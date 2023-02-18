@@ -23,7 +23,7 @@ PACKAGES="$PACKAGES luci-theme-openwrt-2020"
 # 常用系统管理组件
 
 # web管理
-PACKAGES="$PACKAGES luci-i18n-webadmin-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-webadmin-zh-cn"
 # Diskman 磁盘管理
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 # CPU 占用限制
@@ -31,7 +31,7 @@ PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 # ttyd终端
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 # 定时重启
-PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
 #argon-config
 # PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 
@@ -43,7 +43,7 @@ PACKAGES="$PACKAGES luci-i18n-ssr-plus-zh-cn"
 # OpenClash 代理
 PACKAGES="$PACKAGES luci-app-openclash"
 # Passwall 代理
-PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn chinadns-ng hysteria naiveproxy ipt2socks "
+PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn chinadns-ng hysteria naiveproxy ipt2socks"
 # frp 和 nps 内网穿透
 PACKAGES="$PACKAGES luci-i18n-frpc-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-nps-zh-cn"
