@@ -126,7 +126,7 @@ PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall
 
 # 一些自己需要的内核组件
 # PACKAGES="$PACKAGES kmod-usb-printer kmod-lp"
-PACKAGES="$PACKAGES kmod-usb3"
+PACKAGES="$PACKAGES blockd kmod-scsi-generic ntfs-3g kmod-ata-core kmod-ata-ahci kmod-block2mtd kmod-scsi-generic kmod-fs-nfs kmod-fs-nfs-common kmod-nls-cp936 kmod-usb-ohci kmod-usb2 kmod-usb3 gzip unzip zip blkid lsblk hdparm"
 
 # 一些其他可能有用的包
 
